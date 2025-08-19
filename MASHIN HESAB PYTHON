@@ -1,18 +1,21 @@
 while True:
     mohasebe = int(input("Masahat: 1.moraba 2.mostatil 3.dayere 4.mosalas 5.lozi\nMohit: 6.moraba 7.mostatil 8.dayere 9.mosalas 10.lozi\n11.tavan 12.mohasebe takhfif 13.print jadval zarb 1,10  0.Exit: "))
-    if mohasebe == 0:                                           print("Exit")
+    if mohasebe == 0:
+        print("Exit")
         break
     match mohasebe:
         case 1:
             MM1 = int(input("Tool moraba ra vared konid: "))
-            print(MM1 * MM1)                                    case 2:
+            print(MM1 * MM1)
+        case 2:
             MO1 = int(input("Tool mostatil ra vared konid: "))
             MO10 = int(input("Arz mostatil ra vared konid: "))
             print(MO1 * MO10)
         case 3:
             MD1 = int(input("Shoaye dayere ra vared konid: "))
             print(MD1*MD1*3.14)
-        case 4:                                                     MS1 = int(input("ghaede ye mosalas ra vared konid: "))
+        case 4:
+            MS1 = int(input("ghaede ye mosalas ra vared konid: "))
             MS10 = int(input("ertefa ye mosalas ra vared konid: "))
             print(MS1*MS10/2)
         case 5:
