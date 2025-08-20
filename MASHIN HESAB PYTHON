@@ -63,4 +63,4 @@ while True:
                     print(f"{i} * {j:2} = {hasel_zarb:3}")
                 print("-" * 20)
         case _:
-            print("IN GOZINE VOJOD NADARAD!")
+            print("In GOZINE VOJOD NADARAD!")
